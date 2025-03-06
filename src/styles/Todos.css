@@ -1,0 +1,139 @@
+/* Todos.css */
+.todos {
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin-left: 250px; 
+    width: calc(100% - 250px); 
+    padding-top: 80px;
+}
+
+/* Title and Description */
+.todos h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.todos p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Task Form Styling */
+.todos .task-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.todos .task-form input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.todos .task-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.todos .task-form button:hover {
+    background-color: #45a049;
+}
+
+/* Task List Styling */
+.todos .task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.todos .task-list div {
+    background-color: #fff;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todos .task-list div button {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.todos .task-list div button:hover {
+    background-color: #c0392b;
+}
+.priority-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Priority colors */
+  .low {
+    background-color: #28a745; 
+    color: white;
+  }
+  
+  .medium {
+    background-color: #ff9800; 
+    color: white;
+  }
+  
+  .high {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .todos {
+        margin-left: 0; 
+        width: 100%;
+    }
+
+    .todos .task-form {
+        padding: 20px; 
+    }
+
+    .todos .task-list {
+        width: 100%;
+    }
+}

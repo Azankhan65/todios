@@ -1,0 +1,88 @@
+/* Task List Styling */
+.task-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Task Item Styling */
+.task-item {
+    background: #fff;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.task-item h4 {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+.task-item p {
+    font-size: 14px;
+    color: #777;
+    text-align: left;
+}
+
+/* Completed Task Styling */
+.task-item.completed {
+    text-decoration: line-through;
+    background-color: #f4f7fc;
+}
+
+.priority-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  /* Priority Colors */
+  .low {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .medium {
+    background-color: #ff9800; 
+    color: white;
+  }
+  
+  .high {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .critical {
+    background-color: #40006e; 
+    color: white;
+  }
+  
+
+.task-checkbox input {
+width: 1rem ;    
+height: 1rem;
+
+}
+
+.delete-btn {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #ff6d7c;
+}

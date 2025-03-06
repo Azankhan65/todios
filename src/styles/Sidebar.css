@@ -1,0 +1,102 @@
+/* Sidebar Styling */
+.sidebar {
+    background-color: #ff4f6c;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    z-index: 10;
+  }
+  
+  /* Sidebar Header */
+  .sidebar-title {
+    color: #ffff;
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  
+  .sidebar-search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #ff4f6c;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  .sidebar-search-input::placeholder{
+    color: white;
+  }
+  .homeIcon{
+    margin-bottom: 5px;
+  }
+  
+  /* Sidebar Links */
+  .sidebar-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #ff3b5c;
+    color: white;
+  }
+  
+  /* Add Project Button */
+  .sidebar-btn {
+    background-color: #ff4f6c;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #ff3b5c;
+  }
+  
+  /* Add Project Input */
+  .sidebar-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    color: white;
+    background-color: #ff4f6c;
+
+  }
+  .sidebar-input::placeholder {
+    color: white; 
+}
+  
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+  

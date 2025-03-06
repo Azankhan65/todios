@@ -1,0 +1,35 @@
+/* Empty Task State Styling */
+.empty-state-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    background: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 50px auto;
+}
+
+.empty-state-container .material-symbols-outlined {
+    font-size: 60px;
+    color: #6c757d;
+    margin-bottom: 12px;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.empty-state-container:hover .material-symbols-outlined {
+    transform: scale(1.1);
+    color: #4a90e2;
+}
+
+.empty-state-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+    text-align: left;
+}

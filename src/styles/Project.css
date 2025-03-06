@@ -1,0 +1,150 @@
+/* Main container for the project page */
+.project-container {
+	padding: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 5%;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .project-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #333;
+  }
+  
+  /* Add Todo Form */
+  .add-todo-form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-bottom: 20px;
+  }
+  
+  .todo-input {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 100%;
+  }
+  
+  .add-todo-btn {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #ff3b5c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .add-todo-btn:hover {
+	background-color: #ff2045;
+  }
+  
+  /* Todo List */
+  .todo-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .todo-item {
+	padding: 12px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .todo-item:hover {
+	background-color: #f1f1f1;
+  }
+  
+  .todo-text {
+	max-width: 80%;
+
+  }
+  
+  .todo-text strong {
+	font-size: 18px;
+	color: #333;
+  }
+  
+  .todo-text p {
+	font-size: 14px;
+	color: #666;
+  }
+  /* Todo checkbox styling */
+.todo-checkbox {
+	margin-right: 10px;
+	height: 15px;
+	width: 15px;
+	cursor: pointer;
+  }
+  
+  /* Line-through styling when todo is completed */
+  .completed {
+	text-decoration: line-through;
+	color: #888;
+  }
+  
+  
+  .delete-todo-btn {
+	padding: 6px 12px;
+	font-size: 14px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .delete-todo-btn:hover {
+	background-color: #ff6f7e;
+  }
+  
+  .priority-selector {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 10px;
+  }
+  
+  .priority-badge {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+  }
+  
+  /* Color codes for priority */
+  .low {
+	background-color: #d4edda;
+	color: #155724;
+  }
+  
+  .medium {
+	background-color: #fff3cd;
+	color: #856404;
+  }
+  
+  .high {
+	background-color: #f8d7da;
+	color: #721c24;
+  }
+  

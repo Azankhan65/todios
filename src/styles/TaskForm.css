@@ -1,0 +1,20 @@
+/* Task Form Styling */
+.task-form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.task-form input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+.task-form button {
+    align-self: flex-end;
+}

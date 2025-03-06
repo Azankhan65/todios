@@ -1,0 +1,103 @@
+ /* Home Section Styling
+.home {
+    margin-left: 100px;
+    padding: 32px;
+    background-color: #fff;
+    width: calc(100% - 250px);
+    max-width: 1000px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 80vh;
+    overflow-y: auto;
+    margin-top: 80px;
+} 
+
+/* Mobile Responsiveness */
+ /* @media (max-width: 768px) {
+    .home {
+        width: 100%;
+        margin-left: 0;
+    }
+}   */ 
+
+
+/* Home.css */
+.home {
+  margin-left: 27%;
+  padding: 32px;
+  background-color: #fff;
+  width: calc(90% - 200px);
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  height: 80vh;
+  overflow-y: auto;
+  margin-top: 80px;
+}
+  
+  .home-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-list-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    width: 80%;
+  }
+  
+  .task-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+   

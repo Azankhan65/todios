@@ -15,7 +15,7 @@ import "./styles/scrollbar.css";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [priorityFilter, setPriorityFilter] = useState("Medium");
+  const [priorityFilter, setPriorityFilter] = useState("All");
   const [projects, setProjects] = useState([
     { id: 1, name: "LeanIX", todos: [] },
     { id: 2, name: "Todos", todos: [] },

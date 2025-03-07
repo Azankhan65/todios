@@ -6,12 +6,12 @@ function Navbar({ setSearchQuery, setPriorityFilter }) {
 
   const handleSearchChange = (e) => {
     setSearchInput(e.target.value);
-    setSearchQuery(e.target.value); 
+    setSearchQuery(e.target.value);
   };
 
   const handlePriorityChange = (e) => {
     setPriority(e.target.value);
-    setPriorityFilter(e.target.value); 
+    setPriorityFilter(e.target.value);
   };
 
   return (
@@ -29,11 +29,13 @@ function Navbar({ setSearchQuery, setPriorityFilter }) {
           value={priority}
           onChange={handlePriorityChange}
         >
+
           <option value="High">High</option>
           <option value="Medium">Medium</option>
           <option value="Low">Low</option>
           <option value="Critical">Critical</option>
-          <option value="All">All</option> 
+          <option value="All">All</option>
+
         </select>
       </div>
     </nav>

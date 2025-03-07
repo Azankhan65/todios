@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom"; // Use "Router" as a
 import App from "./App";
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/todios"> {/* Add basename here */}
     <App />
   </Router>,
   document.getElementById("root")
